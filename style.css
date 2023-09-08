@@ -1,0 +1,225 @@
+:root {
+    font-family: Prompt, sans-serif;
+    --darkblue: rgba(0,34,100,255);
+    --bgblue: rgba(11,65,140,255);
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper-top {
+    text-align: center;
+    display: flex;
+
+    height: 40vh;
+}
+
+.logoarea {
+    text-align: center;
+    margin-top: 2rem;
+
+    flex: 1;
+}
+
+.logoarea p {
+    margin-block: 0.2rem;
+}
+
+.companylogo {
+    width: 70%;
+}
+
+.chart {
+    height: 75%;
+}
+
+.chartarea {
+    flex: 3;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    color: gray;
+
+}
+
+h3 {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+h5 {
+    margin: 0;
+}
+
+.active {
+    background-color: var(--darkblue);
+}
+
+.active p {
+    margin: 0 !important;
+    font-size: 1rem !important;
+    color: floralwhite;
+}
+
+
+.calendararea {
+    flex: 1;
+    justify-content: center;
+
+    margin-right: 2rem;
+}
+
+.calendararea h3 {
+    width: 80%;
+}
+
+.calendar {
+    display: flex;
+
+    width: 80%;
+}
+
+.days {
+    flex: 7;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.1rem;
+
+    padding: 0;
+    margin: 0;
+
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.weeknumber {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    gap: 0.1rem;
+}
+
+.weeknumber li {
+    background-color: lightgray;
+    aspect-ratio: 1;
+    width: 22px;
+}
+
+.days li {
+    aspect-ratio: 1;
+    width: 22px;
+}
+
+.headers, .cards {
+    display: flex;
+    gap: 1rem;
+}
+
+.cards {
+    height: 50vh;
+    margin-inline: 1rem;
+}
+.headers {
+    text-align: center;
+}
+
+.headers h1 {
+    flex: 2;
+    margin: 0;
+}
+
+.headers h4 {
+    flex: 1;
+    align-self: center;
+
+    margin: 0;
+
+    font-size: 1.5rem;
+}
+
+.monday, .weekdays {
+    background-color: var(--bgblue);
+
+    border-radius: 15px;
+}
+
+.monday {
+    flex: 2;
+    padding: 12px;
+}
+
+.weekdays {
+    flex: 1;
+    padding: 12px;
+}
+
+.monday section, .weekdays section {
+    background-color: #151414;
+
+    border-radius: 10px;
+
+    margin-inline: auto;
+}
+
+.weekdays section {
+    margin-bottom: 0.3rem;
+}
+
+.monday section {
+    height: 90%;
+}
+
+.monday h5, .monday p {
+    padding-left: 1rem;
+
+    color: floralwhite;
+}
+
+.monday h5 {
+    padding-top: 0.5rem;
+}
+
+.weekdays h5, .weekdays p {
+    padding-left: 1rem;
+    color: floralwhite;
+}
+
+.weekdays h5 {
+    padding-top: 0.5rem;
+}
+
+.weekdays section {
+    height: 20%;
+}
+
+.smallogo {
+    width: 15px;
+    margin-right: 0.2rem;
+}
+
+span {
+    position: relative;
+    top: 3px;
+}
+
+.private {
+    background-color: var(--darkblue) !important;
+}
+
